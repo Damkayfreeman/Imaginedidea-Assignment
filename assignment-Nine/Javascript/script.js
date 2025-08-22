@@ -25,7 +25,7 @@ console.log(isStudent);
 // String Concatenation vs Template Literals..
 
 // Declare variable for name and city
- const name = "damilola";
+ const name = "Abdul";
  const city = "Abuja"
 
  // Using String Concatenation
