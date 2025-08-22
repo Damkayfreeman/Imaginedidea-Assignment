@@ -36,7 +36,7 @@ console.log(isStudent);
 
 console.log(`My name is ${name} and I live in ${city}.`);
 
-//Primitive types
+//Primitive types...Assignment- 4
 
 // String type
 let myname = "Jarule";
@@ -45,14 +45,52 @@ let myage = 50;
 // Boolean type
 let isClass = true; 
 // Undefined type
-let location;
+let address;
 // Null type
 let school = null;
 
 console.log(typeof myname);// string
 console.log(typeof myage);// number
 console.log(typeof isClass);// Boolean
-console.log(typeof location);// Undefined
+console.log(typeof address);// Undefined
 console.log(typeof school); // Null
+
+//Assignment 5 – Create an Object
+
+let car = {
+  brand: "Toyota",
+  model: "Camry",
+  year: 2009,
+  color: "red"
+};
+
+// Log the entire object
+console.log(car);
+
+// Accessing values using dot notation
+console.log("Brand:", car.brand);
+
+// Accessing values using bracket notation
+console.log("Model:", car["model"]);
+
+//Assignment 6 – Modify an Object
+
+// Add a new property: engine
+car.engine = "V6";
+console.log(car.engine);
+
+// Change the value of color
+car.color = "Blue";
+console.log(car.color);
+
+// Delete the year property
+delete car.year;
+
+// Print the updated object
+console.log(car);
+
+//Assignment 7 – Nested Objects
+
+
 
 
