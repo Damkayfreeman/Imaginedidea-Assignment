@@ -15,7 +15,7 @@
         let total = "6000";
         if (total >= 5000) {
             console.log("You get a 10% discount!");
-        } else if (total >= 3000 & total <= 5000) {
+        } else if (total >= 3000 && total <= 5000) {
             console.log("You  get a 5% discount!");
         } else if (total <= 3000) {
             console.log("No discount, sorry!");
@@ -42,7 +42,7 @@
         // 3. Exam Result
 
         let grade = 69;
-        let student = (grade >= 70) ? "Distinction" : grade >= 50 & grade <= 69 ? "Pass" : "Fail";
+        let student = (grade >= 70) ? "Distinction" : grade >= 50 && grade <= 69 ? "Pass" : "Fail";
         console.log(student);
 
         // 4. Salary Checker
@@ -51,7 +51,7 @@
 
         if (Salary >= 200000) {
             console.log("You are well-paid!");
-        } else if (Salary >= 100000 & Salary <= 199999) {
+        } else if (Salary >= 100000 && Salary <= 199999) {
             console.log("You're doing okay.");
         } else if (Salary <= 100000) {
             console.log("Keep pushing!");
@@ -63,9 +63,9 @@
 
         if (weather >= 30) {
             console.log("Hot");
-        } else if (weather >= 20 & weather <= 30 ) {
+        } else if (weather >= 20 && weather <= 30 ) {
             console.log("Warm");
-        } else if (weather >= 10 & weather <= 19) {
+        } else if (weather >= 10 && weather <= 19) {
             console.log("Cool");
         } else if (weather <=10) {
             console.log("Cold");
